@@ -19,7 +19,7 @@
       animation:fadeDown 1s ease forwards;
     }
 
-    /* 🔥 LOGO STYLE */
+    /* LOGO */
     .logo{
       width:130px;
       height:130px;
@@ -99,9 +99,6 @@
       display:flex;
       align-items:center;
       justify-content:center;
-      font-weight:800;
-      font-size:1.5rem;
-      color:#020617;
       overflow:hidden;
     }
 
@@ -114,6 +111,49 @@
 
     .name{font-weight:600;margin-top:5px}
     .role{font-size:.85rem;opacity:.6}
+
+    /* 🔥 RANKING SECTION */
+    .ranking-section{
+      max-width:800px;
+      margin:60px auto;
+      padding:20px;
+    }
+
+    .ranking-title{
+      text-align:center;
+      font-size:1.8rem;
+      margin-bottom:25px;
+      font-weight:600;
+      background:linear-gradient(90deg,#22d3ee,#a78bfa);
+      -webkit-background-clip:text;
+      background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .rank-item{
+      background:rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.08);
+      backdrop-filter:blur(10px);
+      border-radius:18px;
+      padding:15px 20px;
+      margin-bottom:15px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      transition:.3s;
+    }
+
+    .rank-item:hover{
+      transform:translateX(8px);
+      box-shadow:0 10px 25px rgba(0,0,0,.5);
+    }
+
+    .rank-number{
+      font-weight:800;
+      font-size:1.2rem;
+      color:#a78bfa;
+      margin-right:8px;
+    }
 
     footer{
       text-align:center;
@@ -134,22 +174,19 @@
 <body>
 
 <header>
-
-  <!-- 🔥 ROUND LOGO -->
   <div class="logo">
-    <img src="lmao 3.jpeg" alt="Lma0000000 group logo featuring seven young men in casual indoor and outdoor settings, conveying a friendly and casual group atmosphere">
+    <img src="lmao 3.jpeg" alt="Lma Logo">
   </div>
 
   <h1>Lma0000000</h1>
   <h3>ESTD 1st JUNE 2023</h3>
-
 </header>
 
 <section class="container">
 
   <div class="card">
     <a href="NAFIN LMA0 2.html" target="_blank">
-      <div class="avatar"><img src="Nafin.jpg" alt=""></div>
+      <div class="avatar"><img src="Nafin.jpg"></div>
     </a>
     <div class="name">NAFIN</div>
     <div class="role">NIGA HOYE BECHE ACHI</div>
@@ -157,7 +194,7 @@
 
   <div class="card">
     <a href="BADHON LMA0" target="_blank">
-      <div class="avatar"><img src="Badhon.jpg" alt=""></div>
+      <div class="avatar"><img src="Badhon.jpg"></div>
     </a>
     <div class="name">BADHON</div>
     <div class="role">BARE SAHAB</div>
@@ -165,7 +202,7 @@
 
   <div class="card">
     <a href="JUBU LMA0" target="_blank">
-      <div class="avatar"><img src="JUBa.jpg" alt=""></div>
+      <div class="avatar"><img src="JUBa.jpg"></div>
     </a>
     <div class="name">JUBAYER</div>
     <div class="role">BOOMER CHELE</div>
@@ -173,7 +210,7 @@
 
   <div class="card">
     <a href="TANDA LMA0" target="_blank">
-      <div class="avatar"><img src="TANDA.jpg" alt=""></div>
+      <div class="avatar"><img src="TANDA.jpg"></div>
     </a>
     <div class="name">TANMOY</div>
     <div class="role">TANDA</div>
@@ -181,7 +218,7 @@
 
   <div class="card">
     <a href="ARNOB LMA0" target="_blank">
-      <div class="avatar"><img src="BHOTKA.jpg" alt=""></div>
+      <div class="avatar"><img src="BHOTKA.jpg"></div>
     </a>
     <div class="name">ARNOB</div>
     <div class="role">BHOTKA</div>
@@ -189,7 +226,7 @@
 
   <div class="card">
     <a href="SHAFIN LMA0" target="_blank">
-      <div class="avatar"><img src="SHAFIN KALLU 2.jpeg" alt=""></div>
+      <div class="avatar"><img src="SHAFIN KALLU 2.jpeg"></div>
     </a>
     <div class="name">SHAFIN</div>
     <div class="role">KALO JANOYAR</div>
@@ -197,7 +234,7 @@
 
   <div class="card">
     <a href="PRITOM LMA0" target="_blank">
-      <div class="avatar"><img src="PRITOM.jpeg" alt=""></div>
+      <div class="avatar"><img src="PRITOM.jpeg"></div>
     </a>
     <div class="name">PRITOM</div>
     <div class="role">BOUNA</div>
@@ -205,10 +242,41 @@
 
 </section>
 
+<!-- 🔥 RANKING SECTION -->
+<section class="ranking-section">
+  <div class="ranking-title">🏆 OVIMAN SERIES RANKING</div>
+
+  <div class="rank-item">
+    <div><span class="rank-number">1.</span> OVIMAN S1</div>
+    <div>ARNOB VS TANMOY</div>
+  </div>
+
+  <div class="rank-item">
+    <div><span class="rank-number">2.</span> OVIMAN S2</div>
+    <div>SHAFIN VS EVERYONE</div>
+  </div>
+
+  <div class="rank-item">
+    <div><span class="rank-number">3.</span> OVIMAN S4</div>
+    <div>BADHON VS SHAFIN</div>
+  </div>
+
+  <div class="rank-item">
+    <div><span class="rank-number">4.</span> OVIMAN S3</div>
+    <div>TANMOY VS ARNOB</div>
+  </div>
+  <div class="rank-item">
+    <div><span class="rank-number">5.</span> OVIMAN S5</div>
+    <div>JUBAYER VS NAFIN</div>
+  </div>
+
+</section>
+
+<!-- DISCORD SECTION -->
 <section class="container">
   <div class="card">
     <a href="https://discord.gg/Cq2sEXZ6n" target="_blank">
-      <div class="avatar"><img src="discord.jpeg" alt=""></div>
+      <div class="avatar"><img src="discord.jpeg"></div>
     </a>
     <div class="name"><h3>Lma0000000 DISCORD</h3></div>
     <div class="role">JOIN NOW</div>

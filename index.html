@@ -12,20 +12,45 @@
       color:#e5e7eb;
       overflow-x:hidden;
     }
+
     header{
       text-align:center;
       padding:80px 20px 40px;
       animation:fadeDown 1s ease forwards;
     }
+
+    /* 🔥 LOGO STYLE */
+    .logo{
+      width:130px;
+      height:130px;
+      border-radius:50%;
+      margin:0 auto 25px;
+      overflow:hidden;
+      border:3px solid rgba(255,255,255,0.15);
+      box-shadow:0 0 30px rgba(167,139,250,0.6);
+    }
+
+    .logo img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
     header h1{
       font-size:3rem;
       font-weight:800;
       letter-spacing:2px;
       background:linear-gradient(90deg,#22d3ee,#a78bfa,#f472b6);
       -webkit-background-clip:text;
+      background-clip:text;
       -webkit-text-fill-color:transparent;
     }
-    header p{opacity:.7;margin-top:10px}
+
+    header h3{
+      margin-top:10px;
+      opacity:.8;
+      font-weight:400;
+    }
 
     .container{
       max-width:1200px;
@@ -47,6 +72,7 @@
       position:relative;
       overflow:hidden;
     }
+
     .card::before{
       content:"";
       position:absolute;
@@ -56,7 +82,9 @@
       transition:opacity .4s;
       pointer-events:none;
     }
+
     .card:hover::before{opacity:1}
+
     .card:hover{
       transform:translateY(-10px) scale(1.03);
       box-shadow:0 20px 40px rgba(0,0,0,.6);
@@ -76,6 +104,7 @@
       color:#020617;
       overflow:hidden;
     }
+
     .avatar img{
       width:100%;
       height:100%;
@@ -105,62 +134,84 @@
 <body>
 
 <header>
+
+  <!-- 🔥 ROUND LOGO -->
+  <div class="logo">
+    <img src="lmao 3.jpeg" alt="Lma0000000 group logo featuring seven young men in casual indoor and outdoor settings, conveying a friendly and casual group atmosphere">
+  </div>
+
   <h1>Lma0000000</h1>
-  <p><h3>PORIBAR</h3></p>
+  <h3>PORIBAR</h3>
+
 </header>
 
 <section class="container">
-  <!-- Friend Card Template (Duplicate & Edit) -->
 
   <div class="card">
-    <a href="NAFIN LMA0 2.html" target="_blank"><div class="avatar"><img src="Nafin.jpg" alt="Friend Photo"></div></a>
+    <a href="NAFIN LMA0 2.html" target="_blank">
+      <div class="avatar"><img src="Nafin.jpg" alt=""></div>
+    </a>
     <div class="name">NAFIN</div>
     <div class="role">NIGA HOYE BECHE ACHI</div>
   </div>
 
   <div class="card">
-    <a href="BADHON LMA0" target="_blank"><div class="avatar"><img src="Badhon.jpg" alt="Friend Photo"></div></a>
+    <a href="BADHON LMA0" target="_blank">
+      <div class="avatar"><img src="Badhon.jpg" alt=""></div>
+    </a>
     <div class="name">BADHON</div>
     <div class="role">BADE SAHAB</div>
   </div>
 
   <div class="card">
-    <a href="JUBU LMA0" target="_blank"><div class="avatar"><img src="JUBa.jpg" alt="Friend Photo"></div></a>
+    <a href="JUBU LMA0" target="_blank">
+      <div class="avatar"><img src="JUBa.jpg" alt=""></div>
+    </a>
     <div class="name">JUBAYER</div>
     <div class="role">BOOMER CHELE</div>
   </div>
 
   <div class="card">
-    <a href="TANDA LMA0" target="_blank"><div class="avatar"><img src="TANDA.jpg" alt="Friend Photo"></div></a>
+    <a href="TANDA LMA0" target="_blank">
+      <div class="avatar"><img src="TANDA.jpg" alt=""></div>
+    </a>
     <div class="name">TANMOY</div>
     <div class="role">TANDA</div>
   </div>
 
   <div class="card">
-    <a href="ARNOB LMA0" target="_blank"><div class="avatar"><img src="BHOTKA.jpg" alt="Friend Photo"></div></a>
+    <a href="ARNOB LMA0" target="_blank">
+      <div class="avatar"><img src="BHOTKA.jpg" alt=""></div>
+    </a>
     <div class="name">ARNOB</div>
     <div class="role">BHOTKA</div>
   </div>
 
   <div class="card">
-    <a href="SHAFIN LMA0" target="_blank"><div class="avatar"><img src="SHAFIN KALLU 2.jpeg" alt="Friend Photo"></div></a>
+    <a href="SHAFIN LMA0" target="_blank">
+      <div class="avatar"><img src="SHAFIN KALLU 2.jpeg" alt=""></div>
+    </a>
     <div class="name">SHAFIN</div>
     <div class="role">KALO JANOYAR</div>
   </div>
 
   <div class="card">
-    <a href="PRITOM LMA0" target="_blank"><div class="avatar"><img src="PRITOM.jpeg" alt="Friend Photo"></div></a>
+    <a href="PRITOM LMA0" target="_blank">
+      <div class="avatar"><img src="PRITOM.jpeg" alt=""></div>
+    </a>
     <div class="name">PRITOM</div>
     <div class="role">BOUNA</div>
   </div>
-</section>
-  <section class="container">
-  <!-- Friend Card Template (Duplicate & Edit) -->
 
+</section>
+
+<section class="container">
   <div class="card">
-    <a href="https://discord.gg/Cq2sEXZ6n" target="_blank"><div class="avatar"><img src="discord.jpeg" alt="Friend Photo"></div></a>
+    <a href="https://discord.gg/Cq2sEXZ6n" target="_blank">
+      <div class="avatar"><img src="discord.jpeg" alt=""></div>
+    </a>
     <div class="name"><h3>Lma0000000 DISCORD</h3></div>
-    <div class="JOIN">JOIN NOW</div>
+    <div class="role">JOIN NOW</div>
   </div>
 </section>
 
